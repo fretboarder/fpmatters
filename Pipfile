@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+fpmatters = {editable = true, path = "."}
 
 [dev-packages]
 black = "*"
@@ -12,6 +13,7 @@ mypy = "*"
 pytest = "*"
 pytest-cov = "*"
 isort = "*"
+build = "*"
 
 [requires]
 python_version = "3.10"
